@@ -1,0 +1,107 @@
+# Learn more about services, parameters and containers at
+# https://symfony.com/doc/current/service_container.html
+parameters:
+    #parameter_name: value
+
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        # automatically injects dependencies in your services
+        autowire: true
+        # automatically registers your services as commands, event subscribers, etc.
+        autoconfigure: true
+        # this means you cannot fetch services directly from the container via $container->get()
+        # if you need to do this, you can override this setting on individual services
+        public: false
+
+    # makes classes in src/AppBundle available to be used as services
+    # this creates a service per class whose id is the fully-qualified class name
+    AppBundle\:
+        resource: '../../src/AppBundle/*'
+        # you can exclude directories or files
+        # but if a service is unused, it's removed anyway
+        exclude: '../../src/AppBundle/{Entity,Repository,Tests}'
+
+    # controllers are imported separately to make sure they're public
+    # and have a tag that allows actions to type-hint services
+    AppBundle\Controller\:
+        resource: '../../src/AppBundle/Controller'
+        public: true
+        tags: ['controller.service_arguments']
+
+    ### SERVICES
+    mapper_service:
+            class: AppBundle\Service\MapperService
+            arguments:
+                - '@service_container'
+                -
+                  - '\AppBundle\Service\Mapping\ProductEntityMapping'
+                  - '\AppBundle\Service\Mapping\CurrencyZoneRequestMapping'
+                  - '\AppBundle\Service\Mapping\PriceEntityMapping'
+                  - '\AppBundle\Service\Mapping\PriceEntitySimpleMapping'
+                  - '\AppBundle\Service\Mapping\UserEntityMapping'
+                  - '\AppBundle\Service\Mapping\CartEntityMapping'
+            public: true
+            lazy: true
+
+    product_service:
+        class: AppBundle\Service\ProductService
+        arguments: ['@product_repository']
+        public: true
+
+    price_service:
+        class: AppBundle\Service\PriceService
+        arguments: ['@price_repository', '@product_repository', '@currency_zone_repository']
+        public: true
+
+    currency_zone_service:
+        class: AppBundle\Service\CurrencyZoneService
+        arguments: ['@currency_zone_repository']
+        public: true
+
+    cart_service:
+        class: AppBundle\Service\CartService
+        arguments: ['@cart_repository', '@product_repository']
+        public: true
+
+    ### REPOSITORIES
+
+    price_repository:
+        class: AppBundle\Repositories\PriceRepository
+        factory: ["@doctrine.orm.entity_manager", getRepository]
+        arguments:
+            - AppBundle\Entity\Price
+        calls:
+            - [setMapperService, ['@mapper_service']]
+            - [setValidator, ['@validator']]
+
+    product_repository:
+        class: AppBundle\Repositories\ProductRepository
+        factory: ["@doctrine.orm.entity_manager", getRepository]
+        arguments:
+            - AppBundle\Entity\Product
+        calls:
+            - [setMapperService, ['@mapper_service']]
+            - [setValidator, ['@validator']]
+
+    currency_zone_repository:
+        class: AppBundle\Repositories\CurrencyZoneRepository
+        factory: ["@doctrine.orm.entity_manager", getRepository]
+        arguments:
+            - AppBundle\Entity\CurrencyZone
+        calls:
+            - [setMapperService, ['@mapper_service']]
+            - [setValidator, ['@validator']]
+
+    cart_repository:
+            class: AppBundle\Repositories\CartRepository
+            factory: ["@doctrine.orm.entity_manager", getRepository]
+            arguments:
+                - AppBundle\Entity\Cart
+            calls:
+                - [setMapperService, ['@mapper_service']]
+                - [setProductRepository, ['@product_repository']]
+
+    AppBundle\EventListener\ExceptionListener:
+            tags:
+                - { name: kernel.event_listener, event: kernel.exception }

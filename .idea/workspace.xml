@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ce4b1bb-f8c0-4f4e-ab02-f5f5d5332e62" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gog.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/AppCache.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/DataFixtures/ORM/CurrencyZone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/DataFixtures/ORM/OAuth.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/DataFixtures/ORM/Price.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/DataFixtures/ORM/Product.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/DataFixtures/ORM/User.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/DoctrineMigrations/Version20180219000311.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/composer.phar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dev/app_dev.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php/Dockerfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php/user-parameters.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker/web/site.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.css/nv.d3.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/d3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/file.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/holder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/html5shiv.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/nv.d3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/.js/respond.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/AppBundle.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Controller/AbstractController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Controller/CartController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Controller/CurrencyZoneController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Controller/ProductController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Controller/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Controller/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/PriceSimple.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Dto/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/AccessToken.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/AuthCode.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/Client.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/Group.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/RefreshToken.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Entity/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/EventListener/ExceptionListener.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/EventListener/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/EventListener/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Exception/EntityValidationException.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Exception/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Exception/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/AbstractRepositoryBase.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/CartRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/CartRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/CurrencyZoneRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/CurrencyZoneRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/PriceRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/PriceRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/ProductRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/ProductRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/UserRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Repository/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/CartService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/CurrencyZoneService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/MapperService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/CartEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/CurrencyZoneEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/CurrencyZoneRequestMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/MapperAwareInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/MapperAwareTrait.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/PriceEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/PriceEntitySimpleMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/ProductEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/RequestGetter.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/RequestMappingTrait.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/UserEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/Mapping/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/PriceService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/ProductService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/Service/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/Base.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/BaseSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/CartSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/Collection.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/ProductSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/ValueObject/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/AppBundle/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Controller/AbstractController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Controller/CartController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Controller/CurrencyZoneController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Controller/ProductController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Controller/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Controller/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/ORM/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/ORM/OAuth.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/ORM/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/ORM/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/ORM/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/ORM/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/ORM/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/DataFixtures/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/PriceSimple.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Dto/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/AccessToken.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/AuthCode.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/Client.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/Group.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/RefreshToken.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Entity/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/EventListener/ExceptionListener.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/EventListener/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/EventListener/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Exception/EntityValidationException.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Exception/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Exception/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/AbstractRepositoryBase.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/CartRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/CartRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/CurrencyZoneRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/CurrencyZoneRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/PriceRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/PriceRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/ProductRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/ProductRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/UserRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Repository/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/CartService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/CurrencyZoneService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/MapperService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/CartEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/CurrencyZoneEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/CurrencyZoneRequestMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/MapperAwareInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/MapperAwareTrait.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/PriceEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/PriceEntitySimpleMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/ProductEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/RequestGetter.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/RequestMappingTrait.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/UserEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/Mapping/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/PriceService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/ProductService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/Service/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/Base.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/BaseSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/CartSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/Collection.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/ProductSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/ValueObject/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/ORM/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/ORM/OAuth.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/ORM/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/ORM/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/ORM/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/ORM/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/ORM/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/DataFixtures/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/app/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/AppBundle.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Controller/AbstractController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Controller/CartController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Controller/CurrencyZoneController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Controller/ProductController.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Controller/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Controller/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/PriceSimple.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Dto/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/AccessToken.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/AuthCode.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/Client.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/Group.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/RefreshToken.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/User.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Entity/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/EventListener/ExceptionListener.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/EventListener/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/EventListener/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Exception/EntityValidationException.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Exception/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Exception/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/AbstractRepositoryBase.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/CartRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/CartRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/CurrencyZoneRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/CurrencyZoneRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/PriceRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/PriceRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/ProductRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/ProductRepositoryInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/UserRepository.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Repository/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/CartService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/CartServiceInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/CurrencyZoneService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/CurrencyZoneServiceInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/MapperService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/CartEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/CurrencyZoneEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/CurrencyZoneRequestMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/MapperAwareInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/MapperAwareTrait.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/PriceEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/PriceEntitySimpleMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/ProductEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/RequestGetter.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/RequestMappingTrait.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/UserEntityMapping.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/Mapping/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/PriceService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/PriceServiceInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/ProductService.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/ProductServiceInterface.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/Service/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/Base.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/BaseSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/Cart.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/CartSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/Collection.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/CurrencyZone.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/Price.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/Product.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/ProductSearch.php.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/ValueObject/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/AppBundle/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/test-coverage/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/AbstractController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CartController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CurrencyZoneController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ProductController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Dto/Cart.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Dto/CurrencyZone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Dto/Price.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Dto/PriceSimple.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Dto/Product.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Dto/User.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/AccessToken.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/AuthCode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Cart.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Client.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/CurrencyZone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Group.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Price.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Product.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/RefreshToken.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/EventListener/ExceptionListener.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Exception/EntityValidationException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/AbstractRepositoryBase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/CartRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/CartRepositoryInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/CurrencyZoneRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/CurrencyZoneRepositoryInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/PriceRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/PriceRepositoryInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/ProductRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/ProductRepositoryInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/CartService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/CartServiceInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/CurrencyZoneService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/CurrencyZoneServiceInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/MapperService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/CartEntityMapping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/CurrencyZoneEntityMapping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/CurrencyZoneRequestMapping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/MapperAwareInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/MapperAwareTrait.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/PriceEntityMapping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/PriceEntitySimpleMapping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/ProductEntityMapping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/RequestGetter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/RequestMappingTrait.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/Mapping/UserEntityMapping.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/PriceService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/PriceServiceInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/ProductService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Service/ProductServiceInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/BaseSearch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/Cart.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/CartSearch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/Collection.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/CurrencyZone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/Price.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/Product.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/ValueObject/ProductSearch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/CartControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/CurrencyZoneControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/ProductControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/cache/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/logs/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/sessions/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/app.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bundles/nelmioapidoc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/robots.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/league/plates" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/doctrine-behaviors" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/api-doc-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/nsmuffin/dto-mapper" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/kherge/uuid-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="229" />
+    <option name="y" value="34" />
+    <option name="width" value="1540" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce4b1bb-f8c0-4f4e-ab02-f5f5d5332e62" name="Default" comment="" />
+      <created>1519052077999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519052077999</updated>
+      <workItem from="1519052079051" duration="416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="416000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1857" height="1212" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+web:
+ image: nginx:latest
+ ports:
+  - "80:80"
+ volumes:
+  - ./:/app:cached
+  - ./app:/app/app
+  - ./src:/app/src
+  - ./var:/app/var
+  - ./docker/web/site.conf:/etc/nginx/conf.d/default.conf
+  - ./dev/app_dev.php:/app/web/app.php
+ links:
+  - php
+
+php:
+ build: docker/php
+ volumes:
+  - ./:/app
+  - ./app:/app/app
+  - ./src:/app/src
+  - ./var:/app/var
+  - ./docker/php/user-parameters.ini:/usr/local/etc/php/conf.d/user-parameters.ini
+  - ./dev/app_dev.php:/app/web/app.php
+ user: '1000:1000'
+ environment:
+  - SYMFONY_ENV=dev
+ links:
+  - db
+ working_dir: /app
+
+db:
+ image: mysql:8.0
+ # ports:
+ # - "5001:3306"
+ environment:
+  TZ: "Europe/Warsaw"
+  MYSQL_ROOT_PASSWORD: gog
+  MYSQL_DATABASE: gog
+  MYSQL_USER: gog
+  MYSQL_PASSWORD: gog
