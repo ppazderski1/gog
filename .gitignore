@@ -13,3 +13,4 @@
 !var/SymfonyRequirements.php
 /vendor/
 docker-compose.yml
+/.idea/
